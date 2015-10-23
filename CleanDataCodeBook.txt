@@ -1,0 +1,40 @@
+## Code book oulining the variables used in the code
+
+df_test ## the initial  test data
+df_train ## the initial train data
+
+
+df_new ## the merged test and train data frames
+
+
+df_X_nms ## the names 
+nms      ## the names in vector format 
+
+
+df_new <- ## new data frame after removing dup named columns
+
+df_test_sj_id ## the subject id 
+
+## read in the test data
+df_test_act_id ## the test activity id
+df_test_2 ## the test data frame after binding of the activity id and subject id 
+
+## read in the train data
+df_train_act_id ## the train activity id
+
+df_train_2 ## the train data frame after binding of the activity id and subject id 
+
+
+
+df_new_2 ## the merged  test and train data frames
+
+df_3 ##  the two data frames Joined on id 
+
+## Uses descriptive activity names to name the activities in the data set
+act_lab ## the activity_labels
+
+
+# Candidate activity mean columns 2 thru 87
+df_4 ## the subsetted data frame removing extraneous data for mean calcuations
+df5   ## the final data set
+
